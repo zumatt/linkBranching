@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --zuColor: #ffffff;
+}
+
+@font-face {
+    font-family: PPNeueMachina;
+    src: url("/assets/font/PPNeueMachina-InktrapRegular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: PPNeueMachina;
+    font-weight: bold;
+    src: url("/assets/font/PPNeueMachina-InktrapUltrabold.otf") format("opentype");
+}
+
+body {
+    font-family: "PPNeueMachina";
+    font-size: 16px;
+    color: var(--zuColor);
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.logo {
+    font-size: 28px;
+}
+
+.theme-toggle {
+    margin-right: 8px;
+}
+
+#theme-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#theme-icon {
+    width: 24px;
+    height: 24px;
+    color: var(--zuColor);
+}
+
+#theme-icon[src="assets/sun.svg"] {
+    filter: invert(1);
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.link {
+    width: 100%;
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid var(--zuColor);
+    border-left: 0px;
+    border-right: 0px;
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.linkblack {
+    width: 100%;
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.linkblack {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 {
+    margin: 8px 0;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content a {
+    color: var(--zuColor);
+}
+
+#theme-icon[src="assets/moon.svg"] {
+    filter: invert(1);
+}
+
+.link-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
