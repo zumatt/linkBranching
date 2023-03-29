@@ -251,7 +251,7 @@ linkList.addEventListener: listens for a click event on the link list and preven
 From here I tried different other commands in order to refine the provided code, but the AI disn't help me a lot.
 So I preferred to go by myself and fix the code in order to get the desired result.
 
-## Next step
+## Next steps
 
 I would like to try to implement [Matomo](https://matomo.org/) to see the analytics from the page.
 The second step will be the research engines optimization.
