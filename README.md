@@ -255,3 +255,63 @@ So I preferred to go by myself and fix the code in order to get the desired resu
 
 I would like to try to implement [Matomo](https://matomo.org/) to see the analytics from the page.
 The second step will be the research engines optimization.
+
+## SEO
+*Me:*
+>Can you conduct a keyword research for my interaction design projects page? The webpage is a collection of links to the projects I'm doing and my personal portfolio.
+
+*ChatGPT:*
+>Sure, I can conduct a keyword research for your interaction design projects page. Here are some potential keywords to consider:
+Interaction design projects
+User interface design portfolio
+UX design projects
+Web design portfolio
+Graphic design portfolio
+Digital product design projects
+Mobile app design portfolio
+Creative design projects
+Visual design portfolio
+Front-end development projects
+These keywords are focused on design, portfolio, and specific areas of design such as UI/UX design and web/mobile app design. It's important to note that keyword research is only one aspect of SEO, and it's important to also consider the relevance of the keywords to your content and the competition for those keywords.
+When using these keywords, make sure to incorporate them naturally into your content and avoid keyword stuffing, which can result in a penalty. Additionally, consider building high-quality backlinks to your page from other relevant websites to increase its authority and improve its ranking in search engine results pages.
+
+*Me:*
+>Can you create the seo integration for an html page with these keywords?
+Interaction design projects
+User interface design portfolio
+UX design projects
+Digital product design projects
+Mobile app design portfolio
+Creative design projects
+Front-end development projects
+Tangible Interafaces projects
+Innovative product projects
+
+*ChatGPT:*
+>Sure, here is an example of how you could integrate those keywords into the HTML code of a webpage:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Design Projects</title>
+    <meta name="description" content="Explore my portfolio of interaction design projects, user interface design, UX design, digital product design, mobile app design, creative design, and front-end development projects.">
+    <meta name="keywords" content="interaction design projects, user interface design portfolio, UX design projects, digital product design projects, mobile app design portfolio, creative design projects, front-end development projects, tangible interfaces projects, innovative product projects">
+</head>
+<body>
+    <h1>My Design Projects</h1>
+    <p>Here you can find a collection of my interaction design projects, user interface design portfolio, UX design projects, digital product design projects, mobile app design portfolio, creative design projects, front-end development projects, tangible interfaces projects, and innovative product projects.</p>
+    <ul>
+        <li><a href="#">Interaction Design Projects</a></li>
+        <li><a href="#">User Interface Design Portfolio</a></li>
+        <li><a href="#">UX Design Projects</a></li>
+        <li><a href="#">Digital Product Design Projects</a></li>
+        <li><a href="#">Mobile App Design Portfolio</a></li>
+        <li><a href="#">Creative Design Projects</a></li>
+        <li><a href="#">Front-end Development Projects</a></li>
+        <li><a href="#">Tangible Interfaces Projects</a></li>
+        <li><a href="#">Innovative Product Projects</a></li>
+    </ul>
+</body>
+</html>
+```
