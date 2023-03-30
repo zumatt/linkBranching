@@ -70,6 +70,10 @@ header {
     padding: 20px 0;
 }
 
+.links-container p{
+    padding: 16px;
+}
+
 .link {
     width: 100%;
     margin: 8px;
