@@ -4,8 +4,15 @@ const linkList = document.querySelector(".link-list");
 
 let theme = localStorage.getItem("theme");
 
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme = "dark";
+} else {
+    theme = "light";
+}
+
 if (theme === null) {
     theme = "dark";
+    console.log("The theme was null...");
 }
 
 setTheme(theme);
