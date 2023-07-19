@@ -84,6 +84,11 @@ header {
     text-align: center;
 }
 
+.link:hover{
+    background: #6967af;
+    color: #ffffff;
+}
+
 .link a {
     text-decoration: none;
     color: inherit;
